@@ -4,3 +4,4 @@ The program takes a binary file containing PCB information about multiple proces
 Each processor is handled by its own thread. On program execution, the user sets the number of processors that the imaginary CPU has, the scheduling algorithm
 of each processor, and the workload distribution among the processors. The program will also rebalance the queues of each processor in order to insure that no
 processor is stitting idle while there are still processes that need to be executed.
+This was a lab assignment for an Operating Systems class at Central Washington University. This was coded and executed in a linux environment.
